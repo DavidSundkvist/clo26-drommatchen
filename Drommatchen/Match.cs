@@ -49,7 +49,7 @@ public class Match
             Console.WriteLine($"un cara messi un cara messi Mååål! {spelare.Nummer} - {spelare.Namn} gör mål! världerns bästa {spelare.Position} med en {spelare.Rating} visar varför han är värd dom siffrorna");
 
         }
-        else if (spelare.Namn == "Luise Suarez")
+        else if (spelare.Namn == "Luis Suarez")
         {
             Console.WriteLine($"GOLE GOLE GOALL! {spelare.Nummer} - {spelare.Namn} gör mål effektivt spel från den {spelare.Rating} - {spelare.Position}");
         }

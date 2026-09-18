@@ -1,6 +1,6 @@
 // TODO: Skapa minst 2 spelare
 Spelare spelare1 = new Spelare("Lionel Messi", 10, "HögerForvard", 93);
-Spelare spelare2 = new Spelare("Luise Suarez", 9, "Anfallare", 89); 
+Spelare spelare2 = new Spelare("Luis Suarez", 9, "Anfallare", 89); 
 Spelare spelare3 = new Spelare("Neymar Jr", 11, "Vänsterforvard", 86);
 
 // TODO: Skapa 1 match
