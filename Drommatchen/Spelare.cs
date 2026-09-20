@@ -5,7 +5,7 @@ public class Spelare
     private int _nummer;
     private string _position;
     private int _rating;
-
+    private int _mål;
   
 
     // Properties — publik get, privat set
@@ -32,13 +32,19 @@ public class Spelare
       get { return _rating; }
       private set { _rating = value; } 
     }
+    public int Mål
+    {
+        get { return _mål; }
+        private set { _mål = value; }
+    }
 
     // Konstruktor
-    public Spelare(string namn, int nummer, string position, int rating)
+    public Spelare(string namn, int nummer, string position, int rating, int mål)
     {
         _namn = namn;
         _nummer = nummer;
         _position = position;
         _rating = rating;
+        _mål = mål;
     }
 }
