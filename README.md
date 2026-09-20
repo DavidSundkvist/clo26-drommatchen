@@ -1,14 +1,12 @@
 # Drömmatchen ⚽
 
-> Beskriv ert spel med en mening — vilka spelare, vilket lag, vad händer?
+> en el clasico mellan FC Barcelona och Real madrid där messi, suarez och neymar gör sina mål
 
 ---
 
 ## Grupp
 
-- [Namn 1]
-- [Namn 2]
-- [Namn 3]
+David Sundkvist
 
 ## Så kör du projektet
 
@@ -28,4 +26,4 @@ dotnet run
 
 ## Länk
 
-[GitHub-repo](https://github.com/LÄNK-HIT)
+[GitHub-repo](https://github.com/DavidSundkvist/clo26-drommatchen)
