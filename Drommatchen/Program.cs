@@ -12,4 +12,8 @@ match.Presentera();
 match.AnnounceraMålskytt(spelare1);
 match.AnnounceraMålskytt(spelare2);
 match.AnnounceraMålskytt(spelare3);
-
+bool matchHjälte = match.ÄrMatchHjälte(spelare2);
+if (matchHjälte)
+{
+    Console.WriteLine($"{spelare2.Namn} är matchhjälte!");
+}

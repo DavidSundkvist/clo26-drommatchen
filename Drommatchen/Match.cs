@@ -60,4 +60,17 @@ public class Match
         else
             Console.WriteLine($" MÅÅl! {spelare.Nummer} - {spelare.Namn} spelar som {spelare.Position} med en {spelare.Rating}");
     }
+
+    public bool ÄrMatchHjälte(Spelare spelare)
+    {
+        if (spelare.Mål >= 2)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
 }
